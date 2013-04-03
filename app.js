@@ -5,7 +5,7 @@ var express = require('express'),
 
     util = require('util'),
     sessionStore = new express.session.MemoryStore(),
-    parseCookie = require('connect').utils.parseCookie,
+    parseCookie = require('connect').utils.parseCookie,////////////////？？？？？？
     controller = require('./app/controller');
 
 
